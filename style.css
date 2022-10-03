@@ -1,95 +1,127 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
-}
-
-html {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
+/* general */
 .container {
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 0 auto;
     padding: 0 1rem;
-    height: 4.7em ;
 }
 
+.btn {
+    all: unset;
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 10em;
+    cursor: pointer;
+    text-decoration: none;
+}
 
-
-/* navbar */
-
+/* nav-bar */
 .nav-top {
     background-color: #0084FD;
-    height: 4.7em ;
+    height: 4.7rem;
 }
 
 .nav-top .container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
-    justify-content:space-between;
 }
 
 .nav-top ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    height: 100%; 
+    display: none;
 }
-
-.nav-top .nav-link{
-    text-decoration: none;
-    color: white;
-    padding: 1em;
-}
-
-.nav-top .nav-link:hover {
-    background-color: white;
-    color: black;
-    border-radius: 20px;
-    transition: 2s;
-    padding: 0.5em;
-}
-
-.nav-top .bottone {
-    text-decoration: none;
-    color: black;
-    padding: 0.5em;
-    background-color: white;
-    border-radius: 20px;
-}
-
-.nav-top .bottone:hover{
-    background-color: salmon;
-    color: black;
-    border-radius: 20px;
-    transition: 2s;
-    padding: 1.5em;
-}
-
 
 .nav-top .hamburger {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 
-@media screen and (min-width 811px) {
-    
+@media screen and (min-width: 811px) {
     .nav-top ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    height: 100%; 
-}
+        display: flex;
+        align-items: center;
+        height: 100%;
+        list-style: none;
+    }
+    
+    .nav-top li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .nav-top .nav-link {
+        display: flex;
+        align-items: center;
+        height: 70%;
+        padding: 0 1rem;
+        text-decoration: none;
+        color: white;
+    }
     
     
+    .nav-top .btn:hover{
+        background-color: salmon;
+        color: black;
+        border-radius: 20px;
+        transition: 2s;
+        padding: 1.5em;
+    }
+    .nav-top .nav-link:hover {
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        transition: 2s;
+        padding: 0.1em;
+    }
+    
+    .nav-top .btn {
+        background-color: white;
+        padding: .5rem;
+    }
+    
+    
+
     .hamburger {
         display: none;
     }
 }
+
+/* fine della navbar */
+
+/* inizio secondo container */
+
+
+.secondocontainer {
+    height: 30em;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-for-box {
+    background-color: fuchsia;
+    width: 60vw;
+    position: relative;
+}
+
+/* parte sopra dei box */
+
+.sopra-box {
+    background-color: blue;
+    width: 100%;
+    height: 40%;
+    margin-top: 1em;
+}
+
 
 
