@@ -105,7 +105,7 @@
     margin: 0 auto;
     padding: 0 1rem;
     height: 30em;
-    background-color: green;
+    background-color: white;
 }
 
 
@@ -114,13 +114,13 @@
 .sopra-box {
     margin: 0 auto;
     padding: 0 1rem;
-    background-color: blue;
+    background-color: white;
     width: 100%;
     height: 40%;
     margin-top: 1em;
     position: relative;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap: 1em;
 }
 
@@ -128,8 +128,8 @@
 /* sx */
 
 .sopra-sx {
-    background-color: yellow;
-    width: 100%;
+    background-color:#b5ddff ;
+    width: 650px;
     height: 100%;
     border-radius: 1em;
     display: flex;
@@ -146,6 +146,7 @@
 .sopra-sx .sx-sx p {
     margin-top: 1em;
     margin-bottom: 1em;
+    width: 15em;
 }
 
 .sopra-sx a {
@@ -162,38 +163,50 @@
 
 /* dx */
 
-.sopra-dx {
-    background-color: aqua;
-    width: 40%;
+
+
+
+
+.sopra-dx{
     height: 189px;
+    background-color: #b5ddff;
+    width: 350px;
     border-radius: 1em;
+    font-size: 1em;
+    text-align: center;
+    color: #0084FD;
     display: flex;
     flex-direction: column;
+
 }
 
 .sopra-dx .code {
     font-size: 3em;
-    text-align: center;
-    color: #0084FD;
+    padding: 0.2em;
+    display: flex;
+    justify-content: center;
 }
 
 
 .sopra-dx h4{
-    text-align: center;
-    color: #0084FD;
-    padding: 0.5em;
-}
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+} 
 
 .sopra-dx p {
-    font-size: 0.8em;
-    padding: 1em;
+    color: black;
+    width: 20em;
 }
+
+
+
 
 
 /* sotto */
 
 .container-sotto {
-    background-color: blueviolet;
+    background-color: white;
     height: 189px;
     margin-top: 1em;
     display: flex;
@@ -206,14 +219,248 @@
 
 .sotto-uno{
     height: 189px;
-    background-color: #7db1e1;
-    width: 30%;
+    background-color: #b5ddff;
+    width: 20em;
     border-radius: 1em;
     font-size: 1em;
     text-align: center;
     color: #0084FD;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .sotto-uno .logo {
+    font-size: 3em;
+    padding: 0.2em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sotto-uno h4{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+} 
+
+.sotto-uno p {
+    color: black;
+    width: 20em;
+
+}
+
+/* parte viola  */
+
+.violagrosso {
+    background-color: #9593e6;
+    max-width: 100%;
+}
+
+
+
+.container-viola {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 37em;
+    background-color: #9593e6;
+    display: flex;
+    gap: 1em;
+}
+
+
+.vio-sx {
+    height: 100%;
+    width: 50%;
+    background-color: #9593e6;
+}
+
+
+
+.vio-dx {
+    height: 100%;
+    width: 50%;
+    background-color: #9593e6;
+    display: flex;
+    justify-content: center;
+}
+
+.vio-sx img {
+    height: 14em;
+    margin: 5em;
+}
+
+.vio-sx h3 {
+    color: white;
+    padding-left: 4.2em;
+}
+
+
+.vio-sx p {
+    color: white;
+    padding: 3em;
+    margin-left: 2em;
+    font-size: 1em;
+    width: 20em;
+}
+
+
+.blocco-sx-dev {
+    background-color: white;
+    height: 24em;
+    width: 80%;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+}
+
+.blocco-sx-dev img {
+    height: 210px;
+    width: 210px;
+    padding: 2em;
+    margin-left: 2.5em;
+}
+
+.blocco-sx-dev h3{
+    margin-left: 4em;
+}
+
+
+.blocco-sx-dev p{
+    margin-left: 3em;
+    width: 15em;
+    margin-top: 1em;
+    font-family: cursive;
+}
+
+
+/* parte dei loghi tizi tondi */
+
+
+.container-box-tondi {
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 55em;
+    /* background-color: green; */
+}
+
+.box-title-test {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
     
+}
+
+.under-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #9593e6;
+}
+
+.container-box-tondi p {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+
+/* clipPath per le immagini */
+
+.box-1-tondo {
+    margin: 0 auto;
+    padding: 0 1rem;
+    margin-top: 1em;
+    height: 200px;
+    max-width: 1000px;
+    background-color: #9593e6;
+    display: flex;
+    justify-content: center;
+    border-radius: 2em;
+    color: white;
+}
+
+.immagine-testo-1-box img {
+    height: 10em;
+    float: left;
+    margin-top: 1em;
+    clip-path: circle();
+}
+
+.immagine-testo-1-box p {
+    float: right;
+    margin-top: 3em;
+    width: 30em;
+}
+
+.immagine-testo-1-box h4 {
+    padding: 7em;
+    margin-left: 9.2em;
+}
+
+
+/* fine parte delle immagini box  */
+
+
+.container-calendario {
+    height: 45em;
+    background-color: #9593e6;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.container-calendario h2 {
+    padding: 2em;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.cont-cal-up {
+    margin: 0 auto;
+    padding: 0 1rem;
+    margin-top: 1em;
+    height: 250px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.primo-box-up {
+    height: 250px;
+    width: 25%;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.primo-box-up h2 {
+    padding: 0.5em;
+    color: #9593e6;
+    font-size: 2.5em;
+    margin-left: -4em;
+}
+
+.primo-box-up h3 {
+    color: #9593e6;
+    margin-left: 1em;
+}
+
+.primo-box-up p{
+    width: 15em;
+    padding-bottom: 1em;
+    font-size: small;
+    margin-left: 1.5em;
+}
+
+.primo-box-up .more {
+    background-color: #9593e6;
+    width: 7em;
+    text-align: center;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin-left: 1.5em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
