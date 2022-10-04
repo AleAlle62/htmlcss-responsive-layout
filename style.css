@@ -6,10 +6,16 @@
 }
 
 /* general */
+
+
 .container {
-    max-width: 1120px;
+    height: 100%;
     margin: 0 auto;
     padding: 0 1rem;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0084FD;
 }
 
 .btn {
@@ -25,14 +31,9 @@
 .nav-top {
     background-color: #0084FD;
     height: 4.7rem;
+    max-width: 100vw;
 }
 
-.nav-top .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
 
 .nav-top ul {
     display: none;
@@ -61,26 +62,15 @@
     .nav-top .nav-link {
         display: flex;
         align-items: center;
-        height: 70%;
+        height: 100%;
         padding: 0 1rem;
         text-decoration: none;
         color: white;
     }
     
     
-    .nav-top .btn:hover{
-        background-color: salmon;
-        color: black;
-        border-radius: 20px;
-        transition: 2s;
-        padding: 1.5em;
-    }
     .nav-top .nav-link:hover {
-        background-color: white;
-        color: black;
-        border-radius: 20px;
-        transition: 2s;
-        padding: 0.1em;
+        background-color: aquamarine;
     }
     
     .nav-top .btn {
@@ -88,7 +78,9 @@
         padding: .5rem;
     }
     
-    
+    .nav-top .btn:hover {
+        background-color: lightgray;
+    }
 
     .hamburger {
         display: none;
@@ -101,27 +93,19 @@
 
 
 .secondocontainer {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    height: 30em;
-    background-color: white;
+    height: 35em;
 }
 
 
 /* parte sopra dei box */
 
 .sopra-box {
+    height: 20em;
     margin: 0 auto;
     padding: 0 1rem;
-    background-color: white;
-    width: 100%;
-    height: 40%;
-    margin-top: 1em;
-    position: relative;
+    width: 1000px ;
     display: flex;
-    /* justify-content: space-around; */
-    gap: 1em;
+    justify-content: center;
 }
 
 
@@ -129,15 +113,16 @@
 
 .sopra-sx {
     background-color:#b5ddff ;
-    width: 41em;
-    height: 100%;
+    width: 43em;
+    height: 15em;
     border-radius: 1em;
     display: flex;
-    margin-left: 2em;
+    margin-top: 2em;
 }
 
 .sopra-sx h4 {
     color: #0084FD;
+    font-size: 1.5em;
 }
 
 .sopra-sx .sx-sx {
@@ -148,6 +133,12 @@
     margin-top: 1em;
     margin-bottom: 1em;
     width: 15em;
+    margin-bottom: 2.5em;
+}
+
+.sopra-sx a:hover {
+    transition: 2s;
+    background-color: blue;
 }
 
 .sopra-sx a {
@@ -155,14 +146,14 @@
     color: white;
     background-color: #0084FD;
     border-radius: 1em;
-    padding: 0.5em;
+    padding: 1.5em;
 }
 
 .sopra-sx img{
-    height: 11em;
-    margin-left: 6em;
+    height: 15em;
+    margin-left: 3em;
     margin-bottom: -175px;
-}
+} 
 
 /* dx */
 
@@ -172,9 +163,11 @@
 
 .sopra-dx{
 
-    height: 189px;
+    height: 15em;
     background-color: #b5ddff;
-    width: 20em;
+    width: 15em;
+    margin-left: 2em;
+    margin-top: 2em;
     border-radius: 1em;
     font-size: 1em;
     text-align: center;
@@ -182,11 +175,11 @@
     display: flex;
     flex-direction: column;
 
-}
+} 
 
 .sopra-dx .code {
     font-size: 3em;
-    padding: 0.2em;
+    padding: 0.4em;
     display: flex;
     justify-content: center;
 }
@@ -200,8 +193,8 @@
 
 .sopra-dx p {
     color: black;
-    width: 20em;
-}
+    width: 15em;
+} 
 
 
 
@@ -210,21 +203,22 @@
 /* sotto */
 
 .container-sotto {
-    background-color: white;
-    height: 189px;
-    margin-top: 1em;
+    height: 20em;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 1000px ;
     display: flex;
-    justify-content: center;
-    gap: 1em;
+    justify-content: space-between;
 }
 
 
 /* 1 */
 
 .sotto-uno{
-    height: 189px;
+    margin-top: -2em;
+    height: 15em;
     background-color: #b5ddff;
-    width: 20em;
+    width: 18em;
     border-radius: 1em;
     font-size: 1em;
     text-align: center;
@@ -232,11 +226,11 @@
     display: flex;
     flex-direction: column;
 
-}
+} 
 
 .sotto-uno .logo {
     font-size: 3em;
-    padding: 0.2em;
+    padding: 0.4em;
     display: flex;
     justify-content: center;
 }
@@ -250,43 +244,55 @@
 
 .sotto-uno p {
     color: black;
-    width: 20em;
+    width: 17em;
 
-}
+} */
 
 /* parte viola  */
 
 .violagrosso {
-    background-color: #9593e6;
+    background-color: #8381e6;
+    height: 37em;
 }
 
 
 
 .container-viola {
+    height: 100%;
     margin: 0 auto;
     padding: 0 1rem;
-    height: 100%;
-    margin-top: 1em;
-    width: 1000px;
+    width: 1000px ;
     display: flex;
+    justify-content: center;
+    background-color: #8381e6;
 }
 
 
 .vio-sx {
     height: 100%;
     width: 50%;
-    background-color: #9593e6;
 }
 
 
 
 .vio-dx {
-    height: 5vh;
-    width: 50%;
-    background-color: #9593e6;
-    display: flex;
-    justify-content: center;
+    height: 100%;
+    width: 25em;
 }
+
+
+
+.vio-sx img:hover{
+    transition: 2s;
+    scale: 1.3;
+}
+
+.vio-dx:hover{
+    transition: 2s;
+    scale: 1.05;
+}
+
+
 
 .vio-sx img {
     height: 14em;
@@ -308,29 +314,29 @@
 }
 
 
-.blocco-sx-dev {
+.blocco-dx-dev {
     background-color: white;
     height: 24em;
-    width: 80%;
+    width: 20em;
     margin-top: 10em;
     display: flex;
     flex-direction: column;
     border-radius: 2em;
 }
 
-.blocco-sx-dev img {
+.blocco-dx-dev img {
     height: 210px;
     width: 210px;
     padding: 2em;
     margin-left: 2.5em;
 }
 
-.blocco-sx-dev h3{
+.blocco-dx-dev h3{
     margin-left: 4em;
 }
 
 
-.blocco-sx-dev p{
+.blocco-dx-dev p{
     margin-left: 3em;
     width: 15em;
     margin-top: 1em;
@@ -371,9 +377,10 @@
 
 /* clipPath per le immagini */
 
-
-
-
+.box-1-tondo:hover {
+    transition: 2s;
+    scale: 1.1;
+}
 
 
 
@@ -404,8 +411,8 @@
 }
 
 .immagine-testo-1-box h4 {
-    padding: 7em;
-    margin-left: 9.2em;
+    padding: 1em;
+    /* margin-left: 9.2em; */
 }
 
 
@@ -417,6 +424,10 @@
     height: 55em;
 }
 
+.primo-box-up:hover{
+    transition: 2s;
+    scale: 1.1;
+}
 
 .container-calendario {
     height: 100%;
@@ -546,6 +557,13 @@
     font-size: 1.5em;
 }
 
+.ubus-right p:hover {
+    transition: 2s;
+    scale: 1.2;
+    background-color: #8381e6;
+}
+
+
 .ubus-right p {
     margin-left: 4.5em;
     margin-top: 2em;
@@ -608,6 +626,12 @@
     color: white;
     width: 60em;
 }
+
+.free .get-started:hover {
+    transition: 2s;
+    scale: 1.2;
+}
+
 
 .free .get-started {
     background-color: white;
