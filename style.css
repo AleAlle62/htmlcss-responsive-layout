@@ -97,7 +97,7 @@
 /* inizio blocchi celesti */
 
 
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 810px) {
 
     .secondocontainer .sopra-box {
         height: 50em;
@@ -107,7 +107,7 @@
     .sopra-box .sopra-sx {
         height: 30.6em;
         flex-direction: column;
-        width: 30em;
+        width: 42em;
         display: flex;
         text-align: center;
 
@@ -123,25 +123,22 @@
     }
 
     .sopra-box .sopra-sx p {
-        margin-left: 5em;
-    }
-
-    .sopra-box .sopra-sx a{
-        
+        margin-left: 10em;
     }
 
     
     .sopra-box .sopra-dx {
         height: 30.6em;
         flex-direction: column;
-        width: 15em;
+        width: 20em;
         display: flex;
         text-align: center;
     }
 
     .sopra-box .sopra-dx p {
         width: 5em;
-        margin-left: 5em;
+        margin-top: 2em;
+        margin-left: 7em;
     }
 
     .secondocontainer .container-sotto {
@@ -160,26 +157,118 @@
         margin-top: 2em;
     }
 
+    .secondocontainer .container-sotto .logo {
+        margin-top: 1em;
+    }
+
+    .secondocontainer .container-sotto h4 {
+        margin: 1em;
+    }
+
     .container-sotto .sotto-uno p{
         width: 15em;
         padding-left: 5em;
     }
 
 
+/* PARTE VIOLA  */
+
+
     .violagrosso .container-viola {
         margin-top: 30em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .violagrosso .container-viola .vio-sx img{
+        height: 40em;
+        margin: 8em;
+    }
+
+    .violagrosso .container-viola .vio-sx h3 {
+        margin-left: -1em;
+        font-size: 4em;
+        width: 15em;
+    }
+
+    .container-viola .vio-sx p {
+        margin-left: 6em;
+        width: 50em;
+        text-align: center;
+    } 
+
+    .violagrosso .container-viola .blocco-dx-dev {
+        height: 60em;
+        width: 50em;
+        margin-bottom: 3em;
+        margin-left: 5em;
     }
 
 
+    .violagrosso .container-viola .blocco-dx-dev img {
+        height: 45em;
+        width: 45em;
+    }
 
-    /* DA FARE LA PARTE VIOLA, SELEZIONA CON TUTTI I PADRI SENNO NON TE LO PRENDE */
+    .violagrosso .container-viola .blocco-dx-dev h3 {
+        text-align: center;
+    }
+
+    .violagrosso .container-viola .blocco-dx-dev p {
+        text-align: center;
+        margin-left: 12em;
+        margin-top: 3em;
+        width: 30em;
+    }
+
+    .violagrosso .container-viola .blocco-dx-dev .freccia {
+        margin-left: 25em;
+        text-align: center;
+        margin-top: 1.5em;
+        background-color: #9593e6;
+        border-radius: 2em;
+        width: 2.5em;
+        padding-top: 0.7em;
+        height: 2.5em;
+    }
+
+    /* PARTE DEI BOX TONDI  */
+
+    .container-box-tondi .box-1-tondo {
+        width: 60em;
+    }
+
+    .box-1-tondo .immagine-testo-1-box img {
+        height: 12em;
+        margin-top: 0.2em;
+    }
+
+    .under-under-title{
+        width: 50em;
+        text-align: center;
+        margin-left: 5em;
+    }
+
+    .box-1-tondo p {
+        font-size: 20px;
+        text-align: center;
+    }
 
 
+    /* CALENDARIO  */
 
+    .cont-cal-grande .container-calendario{
+        height: 80em;
 
+    }   
+    
+    .cont-cal-grande .container-calendario h2 {
+        font-size: 2.5em;
+    }
 
-
-
+    .cont-cal-grande .container-calendario .primo-box-up {
+        width: 40em;
+    }
 
 
 
@@ -370,7 +459,7 @@
     width: 1000px ;
     display: flex;
     justify-content: center;
-    background-color: #8381e6;
+    background-color: #9593e6;
 }
 
 
@@ -449,6 +538,16 @@
     font-family: cursive;
 }
 
+.freccia {
+    background-color: #9593e6;
+    margin-left: 9em;
+    margin-top: 0.5em;
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+
 
 /* parte dei loghi tizi tondi */
 
@@ -474,7 +573,7 @@
     color: #9593e6;
 }
 
-.container-box-tondi p {
+.under-under-title {
     display: flex;
     justify-content: center;
     padding: 1em;
