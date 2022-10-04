@@ -85,7 +85,113 @@
     .hamburger {
         display: none;
     }
+
+    /* fine navabr  */
+
+
+
+    
 }
+
+
+/* inizio blocchi celesti */
+
+
+@media screen and (max-width: 811px) {
+
+    .secondocontainer .sopra-box {
+        height: 50em;
+        /* background-color: saddlebrown; */
+    }
+
+    .sopra-box .sopra-sx {
+        height: 30.6em;
+        flex-direction: column;
+        width: 30em;
+        display: flex;
+        text-align: center;
+
+
+    }
+
+
+    .sopra-box .sopra-sx img{
+        height: 16em; 
+        margin-top: 0.5em;
+        margin-left: 0;
+
+    }
+
+    .sopra-box .sopra-sx p {
+        margin-left: 5em;
+    }
+
+    .sopra-box .sopra-sx a{
+        
+    }
+
+    
+    .sopra-box .sopra-dx {
+        height: 30.6em;
+        flex-direction: column;
+        width: 15em;
+        display: flex;
+        text-align: center;
+    }
+
+    .sopra-box .sopra-dx p {
+        width: 5em;
+        margin-left: 5em;
+    }
+
+    .secondocontainer .container-sotto {
+        /* background-color: green; */
+        height: 30em;
+        margin-top: -17em ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1em;
+    }
+
+    .secondocontainer .container-sotto .sotto-uno {
+        width: 25em;
+        height: 25em;
+        margin-top: 2em;
+    }
+
+    .container-sotto .sotto-uno p{
+        width: 15em;
+        padding-left: 5em;
+    }
+
+
+    .violagrosso .container-viola {
+        margin-top: 30em;
+    }
+
+
+
+    /* DA FARE LA PARTE VIOLA, SELEZIONA CON TUTTI I PADRI SENNO NON TE LO PRENDE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 /* fine della navbar */
 
