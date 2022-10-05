@@ -397,6 +397,21 @@
 
 @media screen and (max-width: 480px) {
     
+    .container img {
+        height: 4.5em;
+        margin-left: 7em;
+    }
+
+    .container .hamburger {
+        font-size: 3em;
+        margin-right: 2em;
+        margin-top: 0.3em;
+    }
+
+
+
+
+
     .secondocontainer .sopra-box{
         display: flex;
         flex-wrap: wrap;
