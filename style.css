@@ -389,11 +389,242 @@
         margin-left: 10em;
     }
 
+}
+
+
+/* MEDIA QUERY TELEFONO  */
+
+
+@media screen and (max-width: 480px) {
+    
+    .secondocontainer .sopra-box{
+        display: flex;
+        flex-wrap: wrap;
+        height: 120em;
+    }
+
+    .secondocontainer .sopra-box .sopra-sx {
+        width: 50em;
+        height: 50em;
+        margin: 2em;
+        border-radius: 4em;
+    }
+
+    .secondocontainer .sopra-box .sopra-sx img {
+        height: 30em;
+        margin-top: 1em;
+    }
+
+    .secondocontainer .sopra-box .sopra-sx h4 {
+        font-size: 3em;
+    }
+
+    .secondocontainer .sopra-box .sopra-sx p {
+        margin-left: 13.5em;
+        width: 20em;
+        margin-bottom: 4em;
+        margin-top: 2em;
+    }
+    .secondocontainer .sopra-box .sopra-sx a {
+        font-size: 1.5em;
+        margin-top: 3em;
+    }
+
+
+    .secondocontainer .sopra-box .sopra-dx {
+        width: 50em;
+        height: 50em;
+        margin: 2em;
+        margin-top: -13em;
+        border-radius: 4em;
+        margin-bottom: 5em;
+    }
+
+
+    .secondocontainer .sopra-box .sopra-dx .code {
+        font-size: 10em;
+    }
+
+    .secondocontainer .sopra-box .sopra-dx h4 {
+        font-size: 3.5em;
+    }
+
+    .secondocontainer .sopra-box .sopra-dx p {
+        font-size: 2.5em;
+        width: 20em;
+        margin-left: 0;
+    }
+
+
+        /* container sotto  */
 
 
 
 
+    .secondocontainer .container-sotto {
+        margin-top: em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
 
+    .secondocontainer .container-sotto .sotto-uno {
+        width: 50em;
+        height: 50em;
+        /* margin-top: -10em; */
+        border-radius: 4em;
+    }
+
+
+
+    .secondocontainer .container-sotto .sotto-uno .logo {
+        font-size: 10em;
+        margin-top: 0;
+    }
+
+    .secondocontainer .container-sotto .sotto-uno h4 {
+        font-size: 3.5em;
+        margin-top: 0;
+    }
+
+    .secondocontainer .container-sotto .sotto-uno p {
+        font-size: 2.5em;
+        width: 20em;
+        margin-left: -2em;
+    }
+
+/* fine parte dei blocchi  */
+
+
+
+
+    .violagrosso .container-viola {
+        margin-top: 230em;
+    }
+
+    .violagrosso .container-viola .vio-sx p {
+        font-size: 2.5em;
+        margin-left: 1.9em;
+        width: 20em;
+
+    }
+
+    .violagrosso .container-viola .blocco-dx-dev {
+        height: 80em;
+    }
+
+    .violagrosso .container-viola .blocco-dx-dev h3 {
+        font-size: 3em;
+        margin-left: 1em;
+    }
+
+    .violagrosso .container-viola .blocco-dx-dev p {
+        font-size: 2.5em;
+        margin-left: 0;
+        width: 20em;
+    }
+
+    /* INZIO PARTE DEI TESTIMONIAL  */
+
+    .container-box-tondi .box-title-test {
+        font-size: 2em;
+    }
+
+    .container-box-tondi .under-title {
+        font-size: 4em;
+        text-align: center;
+        margin-top: -1em;
+        width: 12em;
+        margin-left: 1.5em;
+    }
+
+
+
+    .container-box-tondi .under-under-title {
+        font-size: 2.5em;
+        width: 15em;
+        text-align: center;
+    }
+
+
+    .container-box-tondi .box-1-tondo {
+        display: flex;
+        height: 50em;
+        width: 50em;
+    }
+
+    .container-box-tondi .box-1-tondo .immagine-testo-1-box img {
+        font-size: 2em;
+        margin-left: 2.5em;
+    }
+
+    .container-box-tondi .box-1-tondo .immagine-testo-1-box p {
+        font-size: 3em;
+        width: 15em;
+        margin-top: 1em;
+    }
+
+    .container-box-tondi .box-1-tondo .immagine-testo-1-box h4 {
+        font-size: 3em;
+        margin-left: 3em;
+        padding-top: 14em;
+    }
+
+
+    /* inizio calendario  */
+
+    .cont-cal-grande .container-calendario {
+        height: 335em;
+    }
+
+    .cont-cal-grande {
+        margin-top: 140em;
+        height: 200em;
+    }
+
+    .cont-cal-grande .container-calendario h2 {
+        font-size: 3.5em;
+        width: 15em;
+        text-align: center;
+        margin-left: 1em;
+    }
+
+    .cont-cal-grande .cont-cal-up .primo-box-up {
+        width: 50em;
+        height: 50em;
+        border-radius: 4em;
+    }
+
+    .cont-cal-grande .cont-cal-up .primo-box-up h2 {
+        font-size: 10em;
+        margin-left: -5em;
+        margin-top: -0.5em;
+    }
+
+    .cont-cal-grande .cont-cal-up .primo-box-up h3 {
+        font-size: 4em;
+    }
+
+    .cont-cal-grande .cont-cal-up .primo-box-up p {
+        font-size: 3em;
+        margin-left: 0.5em;
+    }
+
+    .cont-cal-grande .cont-cal-up .primo-box-up .more {
+        margin-left: 1.5em;
+    }
+
+    /* fine calendario  */
+
+
+    /* about us */
+
+    .container-about-us {
+        margin-top: 280em;
+    }
+
+    /* lo lascio cosi mi piace  */
 
 
 
