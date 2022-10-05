@@ -258,8 +258,7 @@
     /* CALENDARIO  */
 
     .cont-cal-grande .container-calendario{
-        height: 80em;
-
+        height: 100em;
     }   
     
     .cont-cal-grande .container-calendario h2 {
@@ -267,7 +266,127 @@
     }
 
     .cont-cal-grande .container-calendario .primo-box-up {
+        width: 25em;
+    }
+
+    .cont-cal-grande .container-calendario .primo-box-up h2 {
+        font-size: 4em;
+    }
+
+    .cont-cal-grande .container-calendario .primo-box-up h3 {
+        font-size: 2em;
+        margin-top: -1em;
+    }
+
+    .cont-cal-grande .container-calendario .primo-box-up p {
+        margin-left: 1em;
+    }
+
+    .cont-cal-grande .cont-cal-up {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        /* flex-direction: column; */
+    }
+
+
+
+
+
+    /* immmagine e tizio virgolette  */
+
+    .container-about-us {
+        margin-top: 45em;
+    }
+
+
+    .container-about-us .ubus-left{
+        height: 70em;
+    }
+    
+
+    
+    
+    
+    .container-about-us .ubus-left h1{
+        font-size: 4em;
+        margin-top: 0;
+        margin-left: 0.5em;
+        margin-bottom: 0;
+    }
+
+
+    .container-about-us .ubus-left p {
+        font-size: 1.5em;
+        width: 20em;
+        margin-left: -0.5em;
+    }
+
+
+    .container-about-us .ubus-right img{
+        height: 22em;
+        margin-left: 0;
+    }
+
+    .container-about-us .ubus-right h3 {
+        font-size: 3em;
+        margin-left: 0;
+    }
+
+    .container-about-us .ubus-right p {
+        font-size: 2em;
+        margin-left: 0;
+    }
+
+    .container-about-us .ubus-right .virg {
+        left: 1.5em;
+        top: 0.2em;
+        font-size: 10em;
+    }
+
+
+
+
+
+
+/* FOOTER  */
+
+
+
+    .cont-free {
+        margin-top: 38em;
+        height: 43em;
+        width: 1000px;
+    }
+
+    .cont-free .free h3 {
+        font-size: 3em;
+
+    }
+
+    .cont-free .free h1 { 
+        font-size: 5em;
+    }
+    
+    .cont-free .free p {
+        width: 25em;
+        padding-top: 2em;
+        text-align: center;
+        margin-left: 17.5em;
+    }
+
+
+    .cont-free .free .get-started {
+        font-size: 1.2em;
+        margin-left: 12.5em;
+        padding: 1.5em;
+    }
+
+
+    .cont-foot p {
         width: 40em;
+        text-align: center;
+        margin-left: 10em;
     }
 
 
